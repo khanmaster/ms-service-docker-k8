@@ -30,6 +30,6 @@ Double-click Docker.dmg to open the installer, then drag the Docker icon to the 
 -  Hyper V settings 
 -  WSL2 and Linux subsystem enabled 
 
-
+- `alias docker="winpty docker"`
 
 
