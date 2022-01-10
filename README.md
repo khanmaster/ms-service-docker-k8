@@ -24,12 +24,26 @@ Double-click Docker.dmg to open the installer, then drag the Docker icon to the 
 - `sudo systemctl enable docker`
 - Check status
 - `sudo systemctl status docker`
-  
-#### Summary:
-- Docker Installation and setup completed
--  Hyper V settings 
--  WSL2 and Linux subsystem enabled 
-
+- if you have TTY error use below command
 - `alias docker="winpty docker"`
+
+
+
+- `hello-world` 
+- docker commands 
+- `docker pull image-name`
+- `docker run image-name`
+- `docker build -t image-name`
+- `docker push image-name`
+- `docker run -d -p 2368:2368 ghost`
+- how to check running container
+- `docker ps` and `docker ps -a` 
+
+### Docker container life cycle 
+- `running state, stop and start`
+  
+- how can we interact with running container?
+- 
+
 
 
